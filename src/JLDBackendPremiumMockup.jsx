@@ -10,9 +10,9 @@ const TOP_METRICS = [
 ]
 
 const LUXURY_PILLARS = [
-  ['Elegancia operativa', 'Una interfaz sobria, premium y mucho más alineada con la imagen de Jean Louis David.'],
+  ['Elegancia operativa', 'Una interfaz sobria, clara y mucho más alineada con la imagen de Jean Louis David.'],
   ['Control real', 'Dirección visualiza ventas, productividad, stock y clientes sin depender de terceros.'],
-  ['Experiencia premium', 'Menos fricción, mejor lectura y navegación más ejecutiva para sucursales y corporativo.'],
+  ['Experiencia profesional', 'Menos fricción, mejor lectura y navegación más ejecutiva para sucursales y corporativo.'],
 ]
 
 const MAIN_MODULES = [
@@ -74,7 +74,7 @@ export default function JLDBackendPremiumMockup() {
               </div>
               <div>
                 <p className="text-[17px] font-semibold tracking-wide text-white">Jean Louis David</p>
-                <p className="text-[11px] uppercase tracking-[0.24em] text-[#d6b98c]">Sistema Central JLD V3 Luxe</p>
+                <p className="text-[11px] uppercase tracking-[0.24em] text-[#d6b98c]">Sistema Central JLD V3</p>
               </div>
             </div>
 
@@ -108,13 +108,13 @@ export default function JLDBackendPremiumMockup() {
           <div className={sectionCard}>
             <div className="mb-6 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#b9925e]">Visión general luxe</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#b9925e]">Visión general</p>
                 <h1 className="mt-2 max-w-3xl text-3xl font-semibold tracking-tight text-[#131313] sm:text-[34px]">
-                  Sistema actual JLD, más luxe, más ejecutivo, más exclusivo
+                  Sistema actual JLD, más claro, más ejecutivo y más sólido
                 </h1>
                 <p className="mt-3 max-w-2xl text-sm leading-6 text-[#6a5a48]">
                   Mantiene la identidad negro + blanco del backend actual y la eleva con acentos nobles, superficies más refinadas y una
-                  experiencia premium pensada para una marca de salón de alto nivel.
+                  experiencia profesional pensada para una marca de salón de alto nivel.
                 </p>
               </div>
 
@@ -152,13 +152,13 @@ export default function JLDBackendPremiumMockup() {
             <div className="flex items-start justify-between gap-4">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#d6b98c]">IA + análisis</p>
-                <h2 className="mt-2 text-2xl font-semibold">Hugging Face intégré luxe</h2>
+                <h2 className="mt-2 text-2xl font-semibold">Hugging Face · IA · Análisis de sentimiento</h2>
                 <p className="mt-3 text-sm leading-6 text-slate-300">
-                  La V3 combine operación, imagen premium y lectura inteligente para una dirección que quiere un sistema propio, elegante y
-                  accionable.
+                  La V3 combina operación, imagen de marca y modelos de IA para análisis de sentimiento, lectura de riesgo y decisiones más
+                  accionables para dirección.
                 </p>
               </div>
-              <div className="rounded-xl border border-[#d6b98c]/25 bg-[#d6b98c]/10 px-3 py-2 text-xs font-semibold text-[#ead6b4]">V3 luxe</div>
+              <div className="rounded-xl border border-[#d6b98c]/25 bg-[#d6b98c]/10 px-3 py-2 text-xs font-semibold text-[#ead6b4]">V3</div>
             </div>
 
             <div className="mt-5 space-y-3">
@@ -179,7 +179,7 @@ export default function JLDBackendPremiumMockup() {
             >
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#b9925e]">Módulo luxe</p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#b9925e]">Módulo</p>
                   <h3 className="mt-2 text-xl font-semibold tracking-tight text-slate-900">{module.title}</h3>
                   <p className="mt-2 text-sm leading-6 text-slate-500">{module.subtitle}</p>
                 </div>
@@ -199,7 +199,7 @@ export default function JLDBackendPremiumMockup() {
           <div className={sectionCard}>
             <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#b9925e]">V3 luxe</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#b9925e]">V3</p>
                 <h2 className="mt-2 text-2xl font-semibold">Salon intelligence pour direction</h2>
               </div>
               <p className="rounded-2xl bg-[#fbf4ea] px-4 py-2 text-sm text-[#7b6854]">Comparativo Santa Fe · Polanco</p>
@@ -230,7 +230,7 @@ export default function JLDBackendPremiumMockup() {
                 ['1. Captura operativa', 'Ventas, servicios, clientes, inventario y consumo interno.'],
                 ['2. Lectura inteligente', 'Hugging Face identifica patrones, riesgos y oportunidades.'],
                 ['3. Alertas accionables', 'El sistema propone foco comercial, stock y seguimiento.'],
-                ['4. Reporte dirección', 'Resumen premium para dueña, gerencia y supervisión.'],
+                ['4. Reporte dirección', 'Resumen ejecutivo para dueña, gerencia y supervisión.'],
               ].map(([step, body]) => (
                 <div key={step} className="flex gap-4 rounded-2xl border border-[#eadfce] bg-[#fffaf4] p-4">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-r from-[#b9925e] to-[#d9bf94] text-sm font-bold text-black">
